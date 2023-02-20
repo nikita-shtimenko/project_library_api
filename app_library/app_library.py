@@ -1,8 +1,8 @@
 from enum import IntEnum, auto
 import time
 import datetime
-from library_api.library import Library
-from library_api.book.book_type import BookType
+from api_library.library import Library
+from api_library.book.book_type import BookType
 
 from app_library.utils import (
     get_input_from_user_str,
