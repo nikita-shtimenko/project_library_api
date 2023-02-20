@@ -158,6 +158,7 @@ class LibraryApp:
                     customer_name: str = get_input_from_user_str("customer name")
                     customer_address: str = get_input_from_user_str("customer address")
                     customer_email: str = get_input_from_user_str("customer email")
+                    print("Customer birth date format: dd.mm.yyyy")
                     customer_birth_date: datetime.date = get_input_from_user_date("customer birth date", "%d.%m.%Y")
 
                     try:
